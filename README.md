@@ -28,6 +28,6 @@ https://www.keycloak.org/docs/latest/server_development/index.html#_extensions_j
 
 
 #### How it works
-Keycloak has built-in liquibase ,so after adding the jpa entities after,`bin\kc.bat build` ,
+Keycloak has built-in liquibase ,so after adding the jpa entities ,`bin\kc.bat build` ,
 liquibase will run example-changelog.xml and create the tables when keycloak is started (`bin\kc.bat start-dev`).
 An external microservice with access to keycloak db can run CRUD operations(tested locally)
